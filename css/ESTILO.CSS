@@ -1,0 +1,226 @@
+*{
+    margin: 0;
+    border: 0;
+    padding: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+}
+
+p{
+    text-align: center;
+    font-family: sans-serif;
+}
+
+header nav ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 63px;
+    background-color: beige;
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+}
+header nav ul div{
+    text-transform: uppercase;
+    font-size: 20px;
+    margin-left: 30px;
+    color: white;
+}
+
+.ALEXA a{
+    color: black;
+}
+
+header img{
+    width: 100%;
+}
+
+.GUIA a{
+    color: brown;
+}
+
+li{
+    display: inline;
+    color:chartreuse;
+    padding-left: 50px;
+}
+
+.Descripcion{
+    background: #171717;
+    padding: 30px;
+}
+
+h2{
+    margin-bottom: 50px;
+    font-size: 60px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color:#999999;
+    font-family: ARIAL;
+    text-align: center;
+}
+
+.Descripcion1{
+    display: flex;
+}
+
+.Descripcion1 P{
+    color: #999999;
+    display: flex;
+    font-size: 18px;
+    text-align: center;
+    line-height: 300%;
+}
+.Descripcion1 br{
+    line-height: 300%;
+}
+
+.Descripcion1 img{
+    height: 180px;
+    justify-content: center;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.PRODUCTO{
+    font-size: 25px;
+    background: #171717;
+    padding: 30px;  
+}
+
+h3{
+    font-size: 23px;
+    margin-bottom: 50px;
+    margin-top: 5%;
+    text-align: center;
+    font-family: Arial;
+    font-size: 60px;
+    font-weight: 600;
+    color: #999999;
+    line-height: 300%;
+}
+
+footer{
+    background-color: coral;
+    font-style: italic;
+    font-family: monospace;
+    text-align: start;
+}
+
+th{
+    font-style: inherit;
+}
+table, th, td{
+    border: 4px solid rgb(6, 213, 236);
+    justify-content: center;
+    vertical-align:middle;
+    margin-bottom: 2px;
+    line-height: 300%;
+}
+
+th, td{
+    color: #999999;
+}
+
+tr td img{
+    height: 150px;
+
+}
+
+td{
+    text-align: center;
+}
+
+.main{
+    justify-content: center;
+}
+
+.FOTOS {
+    max-width: 1024px;
+    margin: 0 auto;
+}
+
+.Fotos h4{
+    font-size: 23px;
+    margin-top: 5%;
+    text-align: center;
+    font-family: Arial;
+    font-size: 60px;
+    font-weight: 600;
+    color: #999999;
+    line-height: 300%;
+}
+
+.Fotos{
+    background: #171717;
+    padding: 30px;
+    justify-content: center;
+    text-align: center;
+}
+.foto {
+    border: 5px solid #c0a37a;
+    width: 30%;
+    margin: 100px;
+    display: inline-block;
+    padding: 30px 40px;
+    line-height: 300%;
+    color: #999999;
+}
+
+.foto1 {
+    border: 5px solid #c0a37a;
+    width: 30%;
+    margin: 100px;
+    display: inline-block;
+    padding: 30px 40px;
+    line-height: 50px;
+    color: #999999;
+}
+
+.foto img {
+    height: 220px;
+    width: 400px;
+    display: block;
+    margin: 0 auto;
+}
+
+.Separar p{
+    text-align: center;
+    color: #171717;
+}
+
+.foto1 img {
+    height: 220px;
+    display: block;
+    margin: 0 auto;
+}
+
+h5{
+    font-size: 25px;
+    padding-top: 30px;
+}
+
+.Beneficios h6{
+    font-size: 23px;
+    margin-top: 5%;
+    text-align: center;
+    font-family: Arial;
+    font-size: 60px;
+    font-weight: 600;
+    color: #999999;
+    line-height: 300%;
+}
+.Beneficios P{
+    color: #999999;
+    font-size: 18px;
+    white-space: 10px;
+    line-height: 300%;
+
+}
+
+.Beneficios{
+    font-size: 25px;
+    background: #171717;
+    padding: 30px;  
+}
